@@ -15,6 +15,13 @@ Another option (as [proposed](https://github.com/seebi/dircolors-solarized/issue
 by [@metamorfos](https://github.com/metamorfos)) is to install GNU ls with
 homebrew (coreutils).
 
+<h2>Notes about the fork</h2>
+
+This is a fork of seebi's [Solarized Dark Dircolors](https://github.com/seebi/dircolors-solarized) with a few minor changes for modern terminal emulators. The ansi light, dark, and universal themes in the original repo all used the bold attribute to describe how to make use of the full 16-color solarized palette. This was done (as far as I can tell at least), for compatibility reasons, as older terminal emulators and versions of dircolors may not support extended color codes.
+
+The problem with this approach is that in order for terminal emulators which do support bold text independent from the bright color pallete to display these colors properly, the user must disable bold type faces and force the terminal to render bold using the bright palette. This works in isolation, but if you have other applications that can make use of the bold typeface and 16 color palette, then must give up the functionality of those applications. This fork then modifies the ansi color schemes to use the extended bright color codes.
+
+
 <h2>(Selected) Table of Contents</h2>
 
 * [Repositories](#repositories)
