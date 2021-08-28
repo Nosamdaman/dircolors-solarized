@@ -4,8 +4,6 @@ This is a repository of themes for GNU ls (configured via GNU
 dircolors) that support Ethan Schoonover’s [Solarized color
 scheme](http://ethanschoonover.com/solarized).
 
-Test
-
 See the [Solarized homepage](http://ethanschoonover.com/solarized)
 for screenshots, details and color theme implementations for terminal
 emulators and other applications, such as Vim, Emacs, and Mutt.
