@@ -1,5 +1,5 @@
 <h1>Solarized Color Theme for GNU ls (as setup by GNU dircolors)</h1>
-Test
+
 This is a repository of themes for GNU ls (configured via GNU
 dircolors) that support Ethan Schoonover’s [Solarized color
 scheme](http://ethanschoonover.com/solarized).
